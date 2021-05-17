@@ -35,7 +35,7 @@ Run `gclient sync` to download all dependencies.
 ##arm
 
 ```
-gn gen out.gn/arm.release --args='host_cpu="x64" is_clang=true is_component_build=false is_debug=false is_official_build=true strip_debug_info=true symbol_level=0 target_cpu="arm" target_os="android" treat_warnings_as_errors=false v8_enable_i18n_support=false v8_enable_verify_heap=true v8_target_cpu="arm" v8_use_external_startup_data=false use_thin_lto=false use_glib=false use_custom_libcxx=false v8_static_library=true enable_resource_allowlist_generation=false v8_monolithic=true'
+gn gen out.gn/arm.release --args='host_cpu="x64" is_clang=true is_component_build=false is_debug=false is_official_build=true strip_debug_info=true symbol_level=0 target_cpu="arm" target_os="android" treat_warnings_as_errors=false v8_enable_i18n_support=false v8_enable_verify_heap=true v8_target_cpu="arm" v8_use_external_startup_data=false use_thin_lto=false use_glib=false use_custom_libcxx=false v8_static_library=true enable_resource_allowlist_generation=false v8_monolithic=true arm_use_neon=false'
 
 ninja -C out.gn/arm.release v8_monolith
 ```
