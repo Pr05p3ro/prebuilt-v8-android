@@ -1,4 +1,4 @@
-# Prebuilt V8 8.9.255.24 for Android (armeabi-v7a, arm64-v8a, x86 and x86_64)
+# Prebuilt V8 9.1.269.36 for Android (armeabi-v7a, arm64-v8a, x86 and x86_64)
 
 Documentation: https://v8.dev/docs
 
@@ -17,7 +17,7 @@ fetch v8
 cd v8
 
 # Choose v8_version from https://omahaproxy.appspot.com/
-git checkout tags/8.9.255.24
+git checkout tags/9.1.269.36
 
 gclient sync
 
